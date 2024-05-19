@@ -1,0 +1,41 @@
+.neon-navbar {
+    transition: all 0.3s ease;
+  }
+  
+  .neon-navbar.open {
+    width: 100%;
+  }
+  
+  .neon-navbar.closed {
+    width: 200px;
+  }
+  
+  .neon-navbar .navbar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  .neon-navbar .navbar-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .neon-navbar .navbar-content a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: white;
+  }
+  
+  .neon-navbar .navbar-content button {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    
+}    
